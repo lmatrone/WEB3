@@ -1,4 +1,4 @@
-const   ABI = [
+const   contractABI = [
     [
         {
             "constant": false,
@@ -106,4 +106,3 @@ const   ABI = [
 
 contract = web3.eth.contract(contractABI).at(contractAddress);
     
-    contract = web3.eth.contract(contractABI).at(contractAddress);
