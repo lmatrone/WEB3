@@ -95,7 +95,7 @@ const   contractABI = [
             "stateMutability": "view",
             "type": "function"
         }
-    ];
+    ]
     
     if (network === "4") {
         contractAddress = "0xe54b2739e2b54a48c5e6f46ffef2dbbfb3d31358"; 
