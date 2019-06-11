@@ -98,9 +98,7 @@ const   ABI = [
     ];
     
     if (network === "4") {
-        contractAddress = "0x85cd134ee89b239ccb88864423c87b1edef310e9"; 
-    } else {
-        contractAddress = "0x72b78f896e15f3e4c12b4a93ec92c0aadc05f531"; 
+        contractAddress = "0xb66f0d1cd9a86032cfcffb30ba954026dceeee36"; 
     }
     
     contract = web3.eth.contract(contractABI).at(contractAddress);
